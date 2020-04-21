@@ -5,7 +5,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #5636d3;
+  background: linear-gradient(-90deg, #efdc09, #91860e);
   padding: 30px 0;
 
   header {
@@ -17,6 +17,8 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      justify-content: space-between;
+
       a {
         color: #fff;
         text-decoration: none;
